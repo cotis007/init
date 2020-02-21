@@ -1,0 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02a                                                :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: cotis <cotis@student.42.fr>                +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/01/20 11:43:28 by cotis             #+#    #+#              #
+#    Updated: 2020/01/28 11:12:08 by cotis            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+// Broadcast address allows information to be sent to all machines on a given subnet rather than to a specific machine.
+
+ifconfig en0 | grep broadcast | awk '{print $6}'

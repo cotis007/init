@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: cotis <cotis@student.42.fr>                +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/01/20 11:42:59 by cotis             #+#    #+#              #
+#    Updated: 2020/01/30 05:29:46 by cotis            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+// We'll get the list of the network interfaces without displaying detail
+// lo0 is loopback (127.0.0.1 - i will use it)
+// en0 at one point "ethernet", now is WiFi.
+// fw0 is the FireWire network interface 
+// (In computing, a firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules).
+// stf0 is an IPv6 to IPv4 tunnel interface to support the transition from IPv4 to the IPv6 standard. (IPv4 - old standart of ip, IPv6 - new standart supporter more connections. It is 128 bits long)
+// awdl0 is Apple Wireless Direct Link (alternative of airdrop)
+// p2p0 is related to AWDL features. Either as an old version, or virtual interface with different semantics than awdl. (i think for WIFI Direct)
+// bridge it is a kind of interface that allows a virtual interface to connect to an outside network through a physical interface
+
+ifconfig -l

@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: cotis <cotis@student.42.fr>                +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/01/28 11:57:42 by cotis             #+#    #+#              #
+#    Updated: 2020/01/28 12:46:13 by cotis            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Run traceroute slash16.org, line 1 is the local IP adress, then line 2 is the NAT router who's remaping the local IP to a public IP pointing to dc3, the host of our public IP
+- 1 : Local IP
+- 2 : NAT IP
+- 3 : Public IP

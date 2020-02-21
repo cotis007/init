@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: cotis <cotis@student.42.fr>                +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/01/20 11:48:55 by cotis             #+#    #+#              #
+#    Updated: 2020/01/28 12:46:20 by cotis            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Use command nslookup slash16.org 8.8.8.8 then
+take adress and use it in command whois
+we will get provider   
+
+Amazon Technologies Inc
+Amazon.com
